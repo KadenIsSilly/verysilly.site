@@ -71,7 +71,7 @@ document.querySelectorAll('.header-links .section-link').forEach(link => {
           { link: "https://jacobstreams.com", img: "/assets/people/jacob-logo.png", alt: "Jacob's Logo" },
           { link: "https://twitch.tv/kiran_leeuw", img: "/assets/people/kiran-logo.png", alt: "Kiran's Logo" },
           { link: "https://twitch.tv/Lukey", img: "/assets/people/lukey-logo.png", alt: "Lukey's Logo" },
-          { link: "https://twitch.tv/MC31415926535897", img: "/assets/people/MC314-logo.png", alt: "Pi's Logo" },
+          { link: "https://twitch.tv/MC31415926535897", img: "/assets/people/mc314-logo.png", alt: "Pi's Logo" },
           { link: "https://mdxcai.com", img: "/assets/people/mdxcai-logo.png", alt: "mdxcai's Logo" },
           { link: "https://www.twitch.tv/mostlymaxi", img: "https://avatars.githubusercontent.com/u/31300687?v=4", alt: "Maxi's Logo" },
           { link: "https://nyxsomnius.com", img: "/assets/people/nyx-logo.png", alt: "Nyx's Logo" },
