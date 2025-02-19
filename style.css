@@ -312,6 +312,62 @@ header .silly-city .links-container {
 header .silly-city .link:hover {
     color: #ebebeb;
 }
+
+header .gamedev-ring {
+    background: #0f0f0f;
+    border: 2px solid #242424;
+    padding: 8px;
+    transition: 0.3s ease;
+}
+
+header .gamedev-ring:hover {
+    border-color: #eb0400;
+}
+
+header .gamedev-ring .title {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Arial';
+    color: #e6e6e6;
+    width: fit-content;
+    background: #0f0f0f;
+    border: 2px solid #242424;
+    padding: 5px;
+    position: relative;
+    top: -15px;
+    user-select: none;
+    cursor: alias;
+    transition: 0.3s ease;
+}
+
+header .gamedev-ring:hover .title {
+    border-color: #eb0400;
+    color: #f5f5f5;
+    scale: 105%;
+}
+
+header .gamedev-ring .link {
+    font-size: 18px;
+    font-family: monospace;
+    color: #b1b1b1;
+    border: 1px solid transparent;
+    display: inline-block;
+    width: fit-content;
+    user-select: none;
+    position: relative;
+    top: -4px;
+    cursor: alias;
+    transition: 0.3s ease;
+    margin-right: 5px;
+}
+
+header .gamedev-ring .links-container {
+    display: flex;
+}
+
+header .gamedev-ring .link:hover {
+    color: #ebebeb;
+}
 /**/
 main {
     margin-left: 450px;
