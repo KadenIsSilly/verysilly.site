@@ -78,6 +78,20 @@ document.getElementById('about-section').addEventListener('mouseleave', function
     });
 });
 
+document.getElementById('webring-section').addEventListener('mouseenter', function() {
+    document.getElementById('webrings').style.border = '3px solid #eb0400';
+    document.querySelectorAll('#webrings .section-hr').forEach(function(hr) {
+        hr.style.borderTop = '2px solid #eb0400';
+    });
+});
+
+document.getElementById('webring-section').addEventListener('mouseleave', function() {
+    document.getElementById('webrings').style.border = '3px solid #282828';
+    document.querySelectorAll('#webrings .section-hr').forEach(function(hr) {
+        hr.style.borderTop = '2px solid #282828';
+    });
+});
+
 document.getElementById('socials-section').addEventListener('mouseenter', function() {
     document.getElementById('socials').style.border = '3px solid #eb0400';
     document.querySelectorAll('#socials .section-hr').forEach(function(hr) {
