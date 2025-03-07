@@ -907,12 +907,11 @@ main .card .photos img {
     animation: fade 60s infinite;
 }
   
-main .card .photos img:nth-child(1) { animation-delay: 0s; }
-main .card .photos img:nth-child(2) { animation-delay: 10s; }
-main .card .photos img:nth-child(3) { animation-delay: 20s; }
-main .card .photos img:nth-child(4) { animation-delay: 30s; }
-main .card .photos img:nth-child(5) { animation-delay: 40s; }
-main .card .photos img:nth-child(6) { animation-delay: 50s; }
+main .card .photos .slide:nth-child(1) { animation-delay: 0s; }
+main .card .photos .slide:nth-child(2) { animation-delay: 10s; }
+main .card .photos .slide:nth-child(3) { animation-delay: 20s; }
+main .card .photos .slide:nth-child(4) { animation-delay: 30s; }
+main .card .photos .slide:nth-child(5) { animation-delay: 40s; }
   
 @keyframes fade {
     0% { opacity: 0; }
