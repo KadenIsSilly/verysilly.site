@@ -1,42 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!--\ Meta tags for responsiveness and dark mode support /-->
+        <!-- Meta tags for responsiveness and dark mode support -->
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="color-scheme" content="dark only">
-        <!--\ SEO tags /-->
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="English">
+        <meta name="author" content="KadenIsSilly">
+        <!-- Primary SEO tags -->
         <link rel="canonical" href="https://verysilly.site">
-        <link rel="icon" href="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/143342107?v=4" type="image/png">
+        <link rel="apple-touch-icon" href="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <!-- Enhanced Title and Description -->
         <title>KadenIsSilly's Website</title>
-        <meta name="description" content="Hello, this is KadenIsSilly's official website! You can find some information about him or look through his social media and projects!">
-        <meta name="keywords" content="verysilly site, verysilly website, verysilly games, verysilly, kadenissilly, kadenissillys site, kadenissillys website, kadenissillys twitch, kadenissillys youtube, kadenissillys discord, kadenissillys bluesky, kadenissillys twitter, kadenissillys x, kadenissillys tiktok, kadenissillys instagram, kadenissillys social media, explode., coco pops., jerys diner, verysilly.site, eradication, kadenissillys games, ">
-        <!--\ Social Media tags /-->
+        <meta name="description" content="Scottish indie game developer and Twitch streamer.">
+        <!-- Open Graph tags for social media -->
+        <meta property="og:type" content="website">
         <meta property="og:url" content="https://verysilly.site">
+        <meta property="og:title" content="KadenIsSilly's Website">
+        <meta property="og:description" content="Scottish indie game developer and Twitch streamer.">
         <meta property="og:image" content="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <meta property="og:image:alt" content="KadenIsSilly profile avatar">
         <meta property="og:site_name" content="verysilly.site">
-        <meta property="og:title" content="KadenIsSilly's Official Website">
-        <meta property="og:description" content="Hello, this is KadenIsSilly's official website! You can find some information about him or look through his social media and projects!">
-        <meta property="theme-color" content="#eb0400">
-        <!--\ Styling and Fonts /-->
+        <meta property="og:locale" content="en_GB">
+        <!-- Twitter Card tags -->
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:url" content="https://verysilly.site">
+        <meta name="twitter:title" content="KadenIsSilly's Website">
+        <meta name="twitter:description" content="Scottish indie game developer and Twitch streamer">
+        <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <meta name="twitter:image:alt" content="KadenIsSilly profile avatar">
+        <!-- Theme color -->
+        <meta name="theme-color" content="#eb0400">
+        <meta name="msapplication-TileColor" content="#eb0400">
+        <!-- Preconnect for performance -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+        <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Stylesheet -->
         <link rel="stylesheet" href="/style.css">
-        <!--\ Schema /-->
+        <!-- Enhanced Schema.org structured data -->
         <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@graph": [
             {
-              "@context": "https://schema.org",
-              "@type": "Person",
-              "name": "KadenIsSilly",
-              "url": "https://verysilly.site",
-              "sameAs": [
-                "https://kadenissilly.com",
-              ],
-              "jobTitle": "Game Developer / Streamer",
-              "description": "KadenIsSilly is a Scottish game developer and content creator. He also enjoys building/repairing desktop computers and some photography.",
-              "image": "https://avatars.githubusercontent.com/u/143342107?v=4"
+            "@type": "Person",
+            "@id": "https://verysilly.site",
+            "name": "KadenIsSilly",
+            "alternateName": "Kaden",
+            "url": "https://verysilly.site",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://avatars.githubusercontent.com/u/143342107?v=4",
+                "caption": "KadenIsSilly's profile photo"
+            },
+            "jobTitle": ["Game Developer", "Content Creator"],
+            "description": "Scottish indie game developer and Twitch streamer.",
+            "nationality": "Scottish",
+            "knowsAbout": ["Game Development", "Streaming", "Content Creation", "Computer Building", "Photography"],
+            "sameAs": [
+                "https://kadenissilly.com"
+            ]
+            },
+            {
+            "@type": "WebSite",
+            "@id": "https://verysilly.site",
+            "url": "https://verysilly.site",
+            "name": "verysilly.site",
+            "description": "KadenIsSilly's official website - Scottish game developer and content creator",
+            "publisher": {
+                "@id": "https://verysilly.site"
+            },
+            "inLanguage": "en-GB"
+            },
+        ]
+        }
+        </script>
+        <!-- Breadcrumb structured data -->
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://verysilly.site"
             }
+        ]
+        }
         </script>
     </head>
 
@@ -250,7 +307,17 @@
                         </a>
                     </div>
                     <hr class="section-hr">  
-                    <section class="list">                
+                    <section class="list">
+                        <!--\ Liminal Journey /-->
+                        <a style="cursor: not-allowed;">
+                            <img src="/assets/projects/lj-logo.png" alt="Liminal Journey Logo" draggable="false">
+                            <section>
+                                <p class="title">Liminal Journey</p>
+                                <p class="description">Another "unique" Backrooms game.</p>
+                                <p class="status"><span class="ueb">Unreal Engine</span> <span class="unfinished">(unfinished)</span></p>
+                            </section>
+                            <svg class="howlink"><use xlink:href="#external-icon"></use></svg>
+                        </a>             
                         <!--\ verysilly.site /-->
                         <a href="https://verysilly.site" target="_blank">
                             <img src="https://avatars.githubusercontent.com/u/143342107?v=4" alt="verysilly.site Logo" draggable="false">
