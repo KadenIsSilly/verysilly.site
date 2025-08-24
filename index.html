@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Main data -->
+        <link rel="icon" href="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <link rel="canonical" href="https://verysilly.site/">
+        <title>KadenIsSilly's Website</title>
+        <meta name="description" content="Welcome to KadenIsSilly's personal website! Explore his projects, social media, and more.">
+        <meta name="author" content="KadenIsSilly">
+        <meta name="robots" content="index,follow">
+        <!-- Open Graph data -->
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://avatars.githubusercontent.com/u/143342107?v=4">
+        <meta property="og:url" content="https://verysilly.site/">
+        <meta property="og:title" content="KadenIsSilly's Website">
+        <meta property="og:description" content="Welcome to KadenIsSilly's personal website! Explore his projects, social media, and more.">
+        <meta property="og:locale" content="en_UK">
+        <!-- Twitter Card data -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="assets/social-card.png">
+        <meta name="twitter:title" content="KadenIsSilly's Website">
+        <meta name="twitter:description" content="Welcome to KadenIsSilly's personal website! Explore his projects, social media, and more.">
+        <meta name="twitter:site" content="@KadenIsSilly">
+        <meta name="theme-color" content="#A27D55">
+        <!-- Performance -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" href="style.css" as="style">
+        <!-- Styling -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+
+    <body>
+        <header>
+            <button class="section-jump" data-target="about">About</button>
+            <button class="section-jump" data-target="projects">Projects</button>
+            <button class="section-jump" data-target="socials">Socials</button>
+            <button class="section-jump" data-target="webrings">Webrings</button>
+            <button class="section-jump" data-target="contact">Contact</button>
+        </header>
+
+        <main>
+            <section class="intro">
+                <img class="intro-guy" src="assets/agahi.avif" alt="agahi 7TV emote">
+                <img class="intro-speechbubble" src="assets/speech-bubble.png" alt="Speech bubble saying 'I'm Kaden!!'">
+            </section>
+            <section class="artist-card">
+                    <a class="artist-name" href="https://ausked.straw.page/" target="_blank">My artist!! <i class="fas fa-arrow-right"></i> @ausked</a>
+                </section>
+            <hr class="section-split">
+            <section id="about">
+                <h1 class="section-title">About Me</h1>
+                <p class="section-desc">Here is a lil info dump about who I am and what I do! :D</p>
+
+                <div class="about-card">
+                    <p class="about-crd-txt">I'm an <span id="age-count">NaN</span> year old game development student from Scotland with a passion for technology that has lasted <span id="passion-last">NaN</span> years!</p>
+                    <br>
+                    <p class="about-crd-txt">Although I have only recently started building and repairing desktop computers, games and websites.</p>
+                </div>
+            </section>
+            <hr class="section-split">
+            <section id="projects">
+                <h1 class="section-title">Projects</h1>
+                <p class="section-desc">This is a list of all the games and websites I've worked on.</p>
+
+                <div class="icon-links">
+                    <!-- Steam -->
+                    <a class="icon-link" href="https://store.steampowered.com/dev/KadenIsSilly" target="_blank" aria-label="Steam Games"><i class="fab fa-steam"></i></a>
+                    <!-- Itch.io -->
+                    <a class="icon-link" href="https://kadenissilly.itch.io/" target="_blank" aria-label="Itch.io Games"><i class="fab fa-itch-io"></i></a>
+                    <!-- GitHub -->
+                    <a class="icon-link" href="https://github.com/KadenIsSilly" target="_blank" aria-label="GitHub Projects"><i class="fab fa-github"></i></a>
+                </div>
+
+                <section class="project-list">
+                    <!-- First Night at Sunnyside's -->
+                    <!--
+                    <a class="project" href="/fnas" target="_blank">
+                        <img class="project-logo" src="" alt="Logo coming soon">
+
+                        <section class="game-info">
+                            <h1 class="game-title">First Night at Sunnyside's</h1>
+                            <p class="game-desc">Can you survive your first night?</p>
+                            <p class="game-status-wip">(work in progress)</p>
+                        </section>
+
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    -->
+                    <!-- Keep The Viewers Up! -->
+                    <a class="project" href="https://kadenissilly.itch.io/ktvu" target="_blank">
+                        <img class="project-logo" src="assets/projects/ktvu-logo.png" alt="KTVU Game logo">
+
+                        <section class="game-info">
+                            <h1 class="game-title">Keep The Viewers Up!</h1>
+                            <p class="game-desc">Live the "hard" life as a streamer!</p>
+                            <p class="game-status-wip">(on hold)</p>
+                        </section>
+
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- verysilly.site -->
+                    <a class="project" href="https://github.com/KadenIsSilly/verysilly.site" target="_blank">
+                        <img class="project-logo" src="https://avatars.githubusercontent.com/u/143342107?v=4" alt="verysilly.site Website logo">
+
+                        <section class="game-info">
+                            <h1 class="game-title">verysilly.site</h1>
+                            <p class="game-desc">My personal website.</p>
+                            <p class="game-status-finished">(finished)</p>
+                        </section>
+
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- Coco Pops. -->
+                    <a class="project" href="https://www.roblox.com/games/13413041261/Coco-Pops" target="_blank">
+                        <img class="project-logo" src="assets/projects/cocopop-logo.png" alt="Coco Pops. Game logo">
+
+                        <section class="game-info">
+                            <h1 class="game-title">Coco Pops.</h1>
+                            <p class="game-desc">It's just Coco Pops.</p>
+                            <p class="game-status-finished">(finished)</p>
+                        </section>
+
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <!-- Explode. -->
+                    <a class="project" href="https://www.roblox.com/games/12651990651/Explode" target="_blank">
+                        <img class="project-logo" src="assets/projects/explode-logo.png" alt="Explode. Game logo">
+
+                        <section class="game-info">
+                            <h1 class="game-title">Explode.</h1>
+                            <p class="game-desc">It's in the name 🤷‍♂️</p>
+                            <p class="game-status-finished">(finished)</p>
+                        </section>
+
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </section>
+            </section>
+            <hr class="section-split">
+            <section id="socials">
+                <h1 class="section-title">Socials</h1>
+                <p class="section-desc">I'm also slightly addicted to social media...</p>
+
+                <div class="icon-links">
+                    <!-- Youtube -->
+                    <a class="icon-link" href="https://www.youtube.com/@KadenIsSilly?sub_confirmation=1" target="_blank" aria-label="YouTube Videos"><i class="fab fa-youtube"></i></a>
+                    <!-- Twitch -->
+                    <a class="icon-link" href="https://www.twitch.tv/KadenIsSilly" target="_blank" aria-label="Twitch Streams"><i class="fab fa-twitch"></i></a>
+                    <!-- Discord -->
+                    <a class="icon-link" href="https://discord.gg/invite/4cPEQgHxXr" target="_blank" aria-label="Discord Server"><i class="fab fa-discord"></i></a>
+                    <!-- Twitter -->
+                    <a class="icon-link" href="https://twitter.com/intent/user?screen_name=KadenIsSilly" target="_blank" aria-label="Twitter/𝕏 Posts"><i class="fab fa-twitter"></i></a>
+                    <!-- TikTok -->
+                    <a class="icon-link" href="https://www.tiktok.com/@KadenIsSilly" target="_blank" aria-label="TikTok Videos"><i class="fab fa-tiktok"></i></a>
+                    <!-- Intagram -->
+                    <a class="icon-link" href="https://www.instagram.com/KadenIsSilly" target="_blank" aria-label="Instagram Posts"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <section class="social-content">
+                     <!-- YouTube Video -->
+                     <div class="social-content-crd">
+                        <h1 class="social-content-crd-title">My Most Recent YouTube Video</h1>
+
+                        <iframe class="social-content-main" width="361" height="206" src="https://www.youtube.com/embed/novideo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                     </div>
+                    <!-- Twitch Stream -->
+                     <div class="social-content-crd">
+                        <h1 class="social-content-crd-title">My Twitch Stream</h1>
+
+                        <iframe class="social-content-main" src="https://player.twitch.tv/?channel=kadenissilly&parent=verysilly.site" frameborder="0" scrolling="no" height="206" width="361"></iframe>
+                     </div>
+                </section>
+            </section>
+            <hr class="section-split">
+            <section id="webrings">
+                <h1 class="section-title">Webrings</h1>
+                <p class="section-desc">I'm part of a few webrings, check them out!</p>
+                <!-- Silly City -->
+                <div class="webring-list">
+                    <div class="webring">
+                    <a class="webring-title" href="https://silly.city/" target="_blank">
+                        <img class="webring-img1" src="https://silly.city/toma-wai.gif" alt="lil silly.city guy">
+                        Silly City
+                        <img class="webring-img2" src="https://silly.city/toma-wai.gif" alt="lil silly.city guy">
+                    </a>
+
+                    <section class="webring-controls">
+                        <a class="webring-button" href="https://silly.city/prev?user=KadenIsSilly"><i class="fas fa-backward"></i></a>
+                        <a class="webring-rand" href="https://silly.city/random">RANDOM</a>
+                        <a class="webring-button" href="https://silly.city/next?user=KadenIsSilly"><i class="fas fa-forward"></i></a>
+                    </section>
+                </div>
+                <!-- GameDev Webring -->
+                <div class="webring">
+                    <a class="webring-title" href="https://www.rainbowcemetery.com/devring/list.php?id=0" target="_blank">
+                        <img class="webring-img1" src="https://www.rainbowcemetery.com/favicon-32x32.png" alt="lil silly.city guy">
+                        GameDev Webring
+                        <img class="webring-img2" src="https://www.rainbowcemetery.com/favicon-32x32.png" alt="lil silly.city guy">
+                    </a>
+
+                    <section class="webring-controls">
+                        <a class="webring-button" href="https://www.rainbowcemetery.com/devring/prev.php?id=0"><i class="fas fa-backward"></i></a>
+                        <a class="webring-rand" href="https://www.rainbowcemetery.com/devring/rand.php?id=0">RANDOM</a>
+                        <a class="webring-button" href="https://www.rainbowcemetery.com/devring/next.php?id=0"><i class="fas fa-forward"></i></a>
+                    </section>
+                </div>
+            </section>
+            <hr class="section-split">
+            <section id="contact">
+                <h1 class="section-title">Contact Me</h1>
+                <p class="section-desc">Feel free to meesage me for business enquiries.</p>
+
+                <section class="contact-options">
+                    <!-- Email -->
+                    <button id="email-copy" aria-label="Email; Click to copy">kaden@verysilly.site</button>
+                    <!-- Socials -->
+                    <div class="icon-links">
+                        <!-- Discord -->
+                        <a class="icon-link" href="https://discord.com/users/765183514001408020" target="_blank" aria-label="Discord Profile"><i class="fab fa-discord"></i></a>
+                        <!-- Twitter -->
+                        <a class="icon-link" href="https://twitter.com/KadenIsSilly" target="_blank" aria-label="Twitter/𝕏 Profile"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
