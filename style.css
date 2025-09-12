@@ -259,6 +259,36 @@ main {
     color: #aaaaaa;
 }
 
+.game-code {
+    margin: 0 0 4px 0;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+.code-ue {
+    color: #fefefe;
+}
+
+.code-cpp {
+    color: #659bd2;
+}
+
+.code-html {
+    color: #f2672e;
+}
+
+.code-css {
+    color: #30aadd;
+}
+
+.code-js {
+    color: #f2bf26;
+}
+
+.code-lua {
+    color: #000080;
+}
+
 .game-status-finished {
     margin: 0;
     font-size: 10px;
@@ -515,4 +545,5 @@ main {
     #email-copy {
         font-size: 17px;
     }
+
 }
